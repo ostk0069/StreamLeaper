@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "824B956622DA1A1800CF4944"
-               BuildableName = "StreamLeaper_iOS.framework"
+               BuildableName = "StreamLeaper.framework"
                BlueprintName = "StreamLeaper iOS"
                ReferencedContainer = "container:StreamLeaper.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "824B956622DA1A1800CF4944"
-            BuildableName = "StreamLeaper_iOS.framework"
+            BuildableName = "StreamLeaper.framework"
             BlueprintName = "StreamLeaper iOS"
             ReferencedContainer = "container:StreamLeaper.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "824B956622DA1A1800CF4944"
-            BuildableName = "StreamLeaper_iOS.framework"
+            BuildableName = "StreamLeaper.framework"
             BlueprintName = "StreamLeaper iOS"
             ReferencedContainer = "container:StreamLeaper.xcodeproj">
          </BuildableReference>

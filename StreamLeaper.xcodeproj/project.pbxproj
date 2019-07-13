@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		824B957022DA1A1900CF4944 /* StreamLeaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824B956722DA1A1800CF4944 /* StreamLeaper.framework */; };
+		824B95CC22DA208300CF4944 /* LeaperBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B95CB22DA208300CF4944 /* LeaperBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +25,7 @@
 		824B956722DA1A1800CF4944 /* StreamLeaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamLeaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		824B956F22DA1A1900CF4944 /* StreamLeaper iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StreamLeaper iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824B957F22DA1ACA00CF4944 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824B95CB22DA208300CF4944 /* LeaperBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaperBaseViewController.swift; sourceTree = "<group>"; };
 		OBJ_12 /* StreamLeaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamLeaperTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* StreamLeaper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StreamLeaper; sourceTree = SOURCE_ROOT; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -84,7 +86,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				824B957E22DA1AA800CF4944 /* Supporting Files */,
@@ -95,7 +97,6 @@
 				OBJ_16 /* StreamLeaper */,
 				OBJ_17 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -110,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* StreamLeaper.swift */,
+				824B95CB22DA208300CF4944 /* LeaperBaseViewController.swift */,
 			);
 			name = StreamLeaper;
 			path = Sources/StreamLeaper;
@@ -180,6 +182,7 @@
 					824B956622DA1A1800CF4944 = {
 						CreatedOnToolsVersion = 10.2.1;
 						DevelopmentTeam = P46632C32H;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					824B956E22DA1A1900CF4944 = {
@@ -197,7 +200,7 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824B95CC22DA208300CF4944 /* LeaperBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +320,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -394,6 +399,7 @@
 		824B957C22DA1A1900CF4944 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -457,6 +463,7 @@
 		824B957D22DA1A1900CF4944 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
