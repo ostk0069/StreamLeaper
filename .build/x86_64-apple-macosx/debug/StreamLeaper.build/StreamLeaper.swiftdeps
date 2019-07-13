@@ -1,0 +1,21 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StreamLeaper"
+provides-nominal:
+- "12StreamLeaperAAV"
+provides-member:
+- ["12StreamLeaperAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StreamLeaper"
+- "StringLiteralType"
+depends-member:
+- ["12StreamLeaperAAV", "init"]
+- ["12StreamLeaperAAV", "text"]
+depends-nominal:
+- "12StreamLeaperAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "926f18fe5d8fb69ce8e5d737badd8f9a"

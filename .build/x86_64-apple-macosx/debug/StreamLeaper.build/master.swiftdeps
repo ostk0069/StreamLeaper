@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "b48f35d8deb815f356391e545720c7f7"
+build_time: [1563025513, 602209000]
+inputs:
+  "/Users/takumaosada/workspace/swift2/StreamLeaper/Sources/StreamLeaper/StreamLeaper.swift": [1563025491, 424781737]

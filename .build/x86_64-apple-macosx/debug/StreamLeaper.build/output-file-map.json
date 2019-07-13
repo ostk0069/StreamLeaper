@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/takumaosada/workspace/swift2/StreamLeaper/.build/x86_64-apple-macosx/debug/StreamLeaper.build/master.swiftdeps"
+  },
+  "/Users/takumaosada/workspace/swift2/StreamLeaper/Sources/StreamLeaper/StreamLeaper.swift": {
+    "dependencies": "/Users/takumaosada/workspace/swift2/StreamLeaper/.build/x86_64-apple-macosx/debug/StreamLeaper.build/StreamLeaper.d",
+    "object": "/Users/takumaosada/workspace/swift2/StreamLeaper/.build/x86_64-apple-macosx/debug/StreamLeaper.build/StreamLeaper.swift.o",
+    "swiftmodule": "/Users/takumaosada/workspace/swift2/StreamLeaper/.build/x86_64-apple-macosx/debug/StreamLeaper.build/StreamLeaper~partial.swiftmodule",
+    "swift-dependencies": "/Users/takumaosada/workspace/swift2/StreamLeaper/.build/x86_64-apple-macosx/debug/StreamLeaper.build/StreamLeaper.swiftdeps"
+  }
+}
